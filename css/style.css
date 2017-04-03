@@ -1,0 +1,122 @@
+@font-face{
+    font-family:'MyCustomFont';
+    src: url('opensans.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    max-width: 1024px;
+    min-width: 240px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg.png);
+    font-family: 'MyCustomFont';
+}
+.text p {
+    font-size: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.text h1{
+    color: darkgray;
+    font-size: 6em;
+}
+.text{
+    margin-top: 6%;
+    text-align: center;
+}
+.logo img{
+    height: 20em;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+.logo p{
+    color: yellow;
+    font-weight: 200;
+    margin-left: 9rem;
+    margin-right: 3.5rem;
+}
+main{
+    overflow: auto;
+}
+.we-do{
+    margin-top: 10em;
+}
+.what-do{
+    text-align: center;
+    border: 10px solid yellow;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.first-line, .second-line, .third-line{
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+.first-line p{
+    text-align: center;
+    font-size: 2em;
+}
+.second-line p{
+    text-align: center;
+    font-size: 2em;
+}
+.third-line p{
+    text-align: center;
+    font-size: 2em;
+}
+.frst-block-one{
+    float: left;
+}
+.frst-block-two{
+    float: right;
+}
+.frst-block-one img{
+    height: 20em;
+}
+
+.frst-block-two img{
+    height: 20em;
+}
+.our-projects{
+    overflow: auto;
+    margin-top: 20em;
+}
+.project-text{
+    text-align: center;
+    border: 10px solid yellow;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 10em;
+}
+.string1{
+    float: left;
+}
+.string2{
+    float: right;
+}
+.string1 img {
+    height: 26em;
+    margin-left: 4em;
+}
+.string2 img{
+    height: 26em;
+    margin-right: 4em;
+}
+.carousel img{
+    height: 40em;
+    width: 61em;
+}
+.gal-text{
+    text-align: center;
+    border: 10px solid yellow;
+     margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 3em;
+    margin-top: 10em;
+}
